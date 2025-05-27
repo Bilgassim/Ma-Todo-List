@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from 'react'
 
-export default function index() {
+export default function Page() {
   const [task, setTask] = useState([]);
   const [newtask, setNewtask] = useState('');
   // Pour les modifications
